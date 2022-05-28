@@ -1,4 +1,5 @@
-# facerecognition
+#Safe and Smart Employee register👥
+-------------------------------------
 ✨Face recognition project to track employee attendance✨
 
 Contributers and Contact Information: [Jasmini posina, jasminiposina0@gmail.com / 20211a3222@bvrit.ac.in]
