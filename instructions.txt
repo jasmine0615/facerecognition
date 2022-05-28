@@ -1,0 +1,15 @@
+✨Select the login.py to view the login portal and login using the credentials given below and click on yes.
+username/email: jasp@gmail.com, password: jasmine11
+
+✨datatrain.py is used to train the data captured through the employee portal for every employee id
+
+✨you will also get redirected to datatraining portal if you select train data set button in the front page(front.py gives you a glimpse of the first page).
+
+✨face.py is the file where the code for the face recognitions system has been written
+
+✨attendance.py is the file where the code for employee attendance management has been written 
+
+✨attendance.csv is the file where the attendance of the detected employee gets stored
+
+✨Database credentials have been included in the code
+host=sql6.freemysqlhosting.net, username=sql6495618, password=6fT2uk3lM3, database=sql6495618.
