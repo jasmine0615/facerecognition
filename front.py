@@ -22,11 +22,11 @@ class Front:
         self.portal.geometry("1530x790+0+0")
         self.portal.title("WELCOME...!")
         self.bg = ImageTk.PhotoImage(
-            file=r"C:\Users\jasmine p\Desktop\finalproj\frn.jpg")
+            file=r"images\frn.jpg")
         lbl_bg = Label(self.portal, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
-        img = Image.open(r"facerecognition/images/dl.jpg")
+        img = Image.open(r"images\dl.jpg")
         img = img.resize((1530, 250), Image.ANTIALIAS)
         self.photoimg = ImageTk.PhotoImage(img)
         img_lbl = Label(self.portal, image=self.photoimg)
