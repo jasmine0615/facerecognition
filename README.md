@@ -1,4 +1,4 @@
-#Safe and Smart Employee register👥
+Safe and Smart Employee register👥
 -------------------------------------
 ✨Face recognition project to track employee attendance✨
 
@@ -54,6 +54,10 @@ Once the registration is done the data gets stored in the database and now you c
 
 # Clone this project
 $ git clone https://github.com/jasmine0615/facerecognition.git
+
+Refer to requirement.txt and instructions.txt files uploaded in the repository👆 
+------------------------------------------------------------------------------------
+Presentation link(regarding the algorithm used for face recognition)-[Click Here!](https://bvritn-my.sharepoint.com/:p:/g/personal/20211a3222_bvrit_edu_in/EYDYdCHPwx9PtrGxRqoA46wBQEZK5Q90cZUp4XsC6dfhyg)
 
 ✨useful links
 -----------------
