@@ -7,11 +7,7 @@ Contributers and Contact Information: [Jasmini posina, jasminiposina0@gmail.com 
 ---------------------------------------------
  A face recognition attendance system makes use of facial recognition technology to identify and verify a person and mark attendance automatically.
 Recent struggle with the pandemic has brought forth the issue with systems that require physical contact. A facial recognition attendance system is a contactless technology that provides freedom from any physical interaction between the man and the machine.
-A facial recognition software captures and compares patterns on a person’s face and analyses the details to identify and verify the individual. The whole technology can be broken down into three steps:
-Face Detection: An essential step is locating human faces in real-time
-Transform Data: Once captured, the analogue facial information is transformed into a set of data or vectors based on a person’s facial features
-Face Match: The system matches the data above with the one in the database for verification
-
+A facial recognition software captures and compares patterns on a person’s face and analyses the details to identify and verify the individual.
 
 ✨Features of the project:
 ----------------------------------
