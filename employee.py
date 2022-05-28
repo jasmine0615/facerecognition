@@ -35,7 +35,7 @@ class employee:
         # backgroundimage
 
         img = Image.open(
-            r"facerecognition/images/backg.jpg")
+            r"images\backg.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1, bd=2, relief=RIDGE)
