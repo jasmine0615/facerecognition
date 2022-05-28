@@ -35,7 +35,7 @@ class employee:
         # backgroundimage
 
         img = Image.open(
-            r"C:\Users\jasmine p\Desktop\finalproj\backg.jpg")
+            r"facerecognition/images/backg.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1, bd=2, relief=RIDGE)
@@ -432,7 +432,7 @@ class employee:
                         img_id += 1
                         face = cv2.resize(face_cropped(my_frame), (450, 450))
                         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
-                        file_name_path = "data/user." + \
+                        file_name_path = "facerecognition/data/user." + \
                             str(id)+"."+str(img_id)+".jpg"
                         cv2.imwrite(file_name_path, face)
                         cv2.putText(face, str(img_id), (50, 50),
