@@ -29,15 +29,12 @@ Once the registration is done the data gets stored in the database and now you c
 •Once this process is done, you can start your face recognition process by clicking upon the button Face Recognition➡️Start face recognition and it opens the camera on your device and recognises the person if his/her photo has been stored inside the database 
 ![image](https://user-images.githubusercontent.com/101412448/170828076-7bfc7d48-79e7-4055-bfd0-5713227b0aef.png)
 •Once the Face has been recognised the employee's id,name,designation,time when the face has been recognised,date will get stored in a csv file... and this will be done day-wise. (For eg: The below image show the entry of the data into csv file)
-![image](https://user-images.githubusercontent.com/101412448/170828276-83b29aaa-4d15-41c0-b2be-49750cf7efb7.png)
+![image](https://user-images.githubusercontent.com/101412448/170828276-83b29aaa-4d15-41c0-b2be-49750cf7efb7.png)         
 
+•You can access the csv file and view it in the employee attendance portal, you can import and export the csv file where the csv has been stored!
 ![video1381475171_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/101412448/170828730-4b3aad58-2a69-4b51-82ee-416fe25e857a.gif)
 
 
 
 # Clone this project
-
-
-
-
 $ git clone https://github.com/jasmine0615/facerecognition.git
