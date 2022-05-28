@@ -12,11 +12,17 @@ A facial recognition software captures and compares patterns on a person’s fac
 ✨Features of the project:
 ----------------------------------
 •Login system for the administrator
+
 •Employee registration portal
+
 •Data set training 
+
 •Face recognition done through the images that have been trained
+
 •Marking employee attendance through face recognition system day-wise
+
 •Contactless attendance tracking
+
 •Easy to use
 
 ✨I have used Python and MYSQL database. Libraries used include opencv, tkinter, PIL, etc.
@@ -43,5 +49,18 @@ Once the registration is done the data gets stored in the database and now you c
 ![video1381475171_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/101412448/170829336-54b73d6f-da6e-4862-8819-a6fe882bb9df.gif)
 
 
+
+
 # Clone this project
 $ git clone https://github.com/jasmine0615/facerecognition.git
+
+✨useful links
+-----------------
+Visual Studio code installation and setup- https://code.visualstudio.com/download  
+
+installation of opencv- https://pypi.org/project/opencv-python/ 
+
+installation of tkinter-https://docs.python.org/3/library/tkinter.html
+
+MYSQL installation and setup- https://www.javatpoint.com/how-to-install-mysql
+
