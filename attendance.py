@@ -13,7 +13,7 @@ import numpy as np
 
 mydata = []
 
-
+#defining the structure of the window
 class attend:
     def __init__(self, portal):
         self.portal = portal
@@ -29,12 +29,12 @@ class attend:
         self.var_status = StringVar()
 
         img = Image.open(
-            r"C:\Users\jasmine p\Desktop\finalproj\backg.jpg")
+            r"facerecognition/images/backg.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1, bd=2, relief=RIDGE)
         bg_lbl.place(x=0, y=0, width=1530, height=810)
-
+#creating frames and grids for the attendance portal
         main_frame = Frame(bg_lbl, bd=2, relief=RIDGE, bg="white")
         main_frame.place(x=15, y=55, width=1500, height=680)
 
@@ -116,7 +116,7 @@ class attend:
             "times new roman", 14, "bold"), fg="blue", bg="white")
         searchFr.place(x=0, y=10, width=790, height=600)
 
-        # tableeee
+        # tableeee for showing the imported attendance data
         tab_fr = Frame(rFrame, bd=4, relief=RIDGE)
         tab_fr.place(x=5, y=80, width=770, height=520)
 
@@ -151,7 +151,7 @@ class attend:
         self.details_table.delete(*self.details_table.get_children())
         for i in rows:
             self.details_table.insert("", END, values=i)
-
+#importing the data file using this function
     def imp_dt(self):
 
         global mydata
@@ -162,7 +162,7 @@ class attend:
             for i in csvread:
                 mydata.append(i)
             self.fetchData(mydata)
-
+#exporting the data file using this function
     def exp(self):
         try:
             if len(mydata) < 1:
