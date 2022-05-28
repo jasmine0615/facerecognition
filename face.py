@@ -18,9 +18,8 @@ import mysql.connector
 import cv2
 import csv
 import os
-import pyttsx3
 import numpy as np
-from gtts import gTTS
+
 
 
 class face_Rec:
@@ -28,16 +27,14 @@ class face_Rec:
         self.portal = portal
         self.portal.geometry("1530x790+0+0")
         self.portal.title("Face Recognition System")
-        self.engine = pyttsx3.init()
-        self.voices = self.engine.getProperty('voices')
-        self.engine.setProperty('voice', self.voices[1].id)
+        
 
         lbl_title = Label(self.portal, text="FACE RECOGNITION", font=(
             "times new roman", 37, "bold"), fg="blue", bg="pink")
         lbl_title.place(x=0, y=-10, width=1530, height=50)
     # setting up background images
         img = Image.open(
-            r"facerecognition/images/ai.jpg")
+            r"images\ai.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1,  relief=RIDGE)
