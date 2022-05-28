@@ -24,13 +24,13 @@ class Login_Window:
         self.var_passw = StringVar()
 
         self.bg = ImageTk.PhotoImage(
-            file=r"facerecognition/images/emp2.jpg")
+            file=r"images\emp2.jpg")
         lbl_bg = Label(self.net, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
         frame = Frame(self.net, bg="black")
         frame.place(x=610, y=190, width=340, height=450)
-        avatar = Image.open(r"facerecognition/images/avv1.jpg")
+        avatar = Image.open(r"images\avv1.jpg")
         avatar = avatar.resize((120, 120), Image.ANTIALIAS)
         self.photoimage1 = ImageTk.PhotoImage(avatar)
         lblavatar1 = Label(image=self.photoimage1, bg="white", borderwidth=0)
@@ -112,12 +112,12 @@ class Register:
         self.var_confpassw = StringVar()
 
         self.bg = ImageTk.PhotoImage(
-            file=r"facerecognition/images/bgg.jpg")
+            file=r"images\bgg.jpg")
         lbl_bg = Label(self.net, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
         self.bg1 = ImageTk.PhotoImage(
-            file=r"facerecognition/images/regist.jpg")
+            file=r"images\regist.jpg")
         lbl_wel = Label(self.net, image=self.bg1)
         lbl_wel.place(x=50, y=100, width=470, height=550)
         # registerwindow
@@ -175,14 +175,14 @@ class Register:
         self.chkbtn.place(x=50, y=340)
 
         # login,reg
-        img = Image.open(r"facerecognition/images/reg.jpg")
+        img = Image.open(r"images\reg.jpg")
         img = img.resize((250, 55), Image.ANTIALIAS)
         self.photoimage = ImageTk.PhotoImage(img)
         b1 = Button(frame, image=self.photoimage, command=self.register_data,
                     borderwidth=0, cursor="hand2")
         b1.place(x=45, y=390, width=210)
 
-        img1 = Image.open(r"facerecognition/images/login1.jpg")
+        img1 = Image.open(r"images\login1.jpg")
         img1 = img1.resize((250, 45), Image.ANTIALIAS)
         self.photoimage1 = ImageTk.PhotoImage(img1)
         b2 = Button(frame, command=self.return_login, image=self.photoimage1,
