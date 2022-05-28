@@ -19,7 +19,7 @@ class dTrain:
         self.portal.title("Data training System")
         # background image
         img = Image.open(
-            r"facerecognition/images/bg1.jpg")
+            r"images\bg1.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1,  relief=RIDGE)
