@@ -37,7 +37,7 @@ class face_Rec:
         lbl_title.place(x=0, y=-10, width=1530, height=50)
     # setting up background images
         img = Image.open(
-            r"C:\Users\jasmine p\Desktop\finalproj\ai.jpg")
+            r"facerecognition/images/ai.jpg")
         img = img.resize((1530, 710), Image.ANTIALIAS)
         self.photo1 = ImageTk.PhotoImage(img)
         bg_lbl = Label(self.portal, image=self.photo1,  relief=RIDGE)
